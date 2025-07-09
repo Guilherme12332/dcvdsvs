@@ -59,3 +59,27 @@ footer {
     color: #7f8c8d;
     margin-top: 40px;
 }
+.hero img {
+    width: 45%;
+    margin: 10px;
+    display: inline-block;
+}
+
+.batman-classico {
+    border: 2px solid #fff;
+}
+
+.batman-alternativo {
+    border: 2px solid #fff;
+}
+.hero img {
+    width: 45%;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;  /* Para indicar que as imagens são clicáveis */
+    transition: transform 0.3s ease; /* Efeito de transição */
+}
+
+.hero img:hover {
+    transform: scale(1.05); /* Um leve zoom nas imagens ao passar o mouse */
+}
